@@ -11,8 +11,8 @@ ul {
     width: 10%;
     background-color: rgb(47,49,54);
     height: 100%; /* Full height */
-    position: fixed; /* Make it stick, even on scroll */
-    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+    position: fixed;
+    overflow: auto;
 }
 
 img {
