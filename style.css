@@ -1,7 +1,7 @@
 body {
   margin: 0px;
-	background-color: rgb(54,57,63);
-	font-family: 'Raleway', sans-serif;
+  background-color: rgb(54,57,63);
+  font-family: 'Raleway', sans-serif;
 }
 
 ul {
@@ -27,7 +27,6 @@ li a {
     text-decoration: none;
 }
 
-/* Change the link color on hover */
 li a:hover {
     border-radius: 10px 10px 10px 10px;
     background-color: rgb(153,102,231);
