@@ -1,0 +1,35 @@
+body {
+  margin: 0px;
+	background-color: rgb(54,57,63);
+	font-family: 'Raleway', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 10px 0px 10px 0px;
+    width: 10%;
+    background-color: rgb(47,49,54);
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+img {
+  border-radius: 50%;
+  border: 5px solid rgb(152, 102, 231);
+}
+
+li a {
+    display: block;
+    color: rgb(153,102,231);
+    padding: 10px 0px 10px 15px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(153,102,231);
+    color: rgb(47,49,54);
+}
