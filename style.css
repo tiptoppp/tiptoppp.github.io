@@ -1,0 +1,100 @@
+body {
+  margin: 0px;
+  background-color: rgb(54,57,63);
+  font-family: 'Raleway', sans-serif;
+}
+
+#tiptop {
+  border-radius: 50%;
+  border: 5px solid rgb(152, 102, 231);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  transition: transform .2s;
+}
+
+.tiptophover {
+  transition: transform .2s;
+}
+
+.tiptophover:hover {
+  transform: scale(1.2);
+}
+
+#home {
+  margin: 0%;
+  color: rgb(153,102,231);
+  position: relative;
+  top: 10px; left: 210px;
+}
+
+.top {
+  background-color: rgb(47,49,54);
+  position: relative;
+  top: 0px; left: 0px;
+  height: 50px;
+}
+
+.corner {
+  position: relative;
+  top: 0px; left: 200px;
+}
+
+ul {
+  z-index: 1;
+  list-style-type: none;
+  margin: 0%;
+  padding: 10px 0px 10px 0px;
+  width: 200px;
+  background-color: rgb(47,49,54);
+  height: 100%;
+  position: fixed;
+  overflow: auto;
+}
+
+li a {
+  margin: 5px;
+  display: block;
+  color: rgb(153,102,231);
+  padding: 10px 0px 10px 15px;
+  text-decoration: none;
+}
+
+li a:hover {
+  margin: 5px;
+  border-radius: 10px 10px 10px 10px;
+  background-color: rgb(153,102,231);
+  color: rgb(47,49,54);
+}
+
+div.gallery {
+  padding: 5px;
+  position: relative;
+  top: 10px; left: 250px;
+  margin: 20px;
+  border: 5px solid rgb(47,49,54);
+  float: left;
+  width: 180px;
+  border-radius: 10px 10px 10px 10px;
+  background-color: rgb(47,49,54);
+  color: rgb(153,102,231);
+  transition: transform .2s;
+}
+
+div.gallery:hover {
+  background-color: rgb(153,102,231);
+  border: 5px solid rgb(153,102,231);
+  color: rgb(47,49,54);
+  transform: scale(1.2);
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 10px 10px;
+}
+
+div.description {
+  padding: 15px;
+  text-align: center;
