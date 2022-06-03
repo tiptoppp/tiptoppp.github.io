@@ -1,0 +1,141 @@
+@font-face {
+	font-family: ABC Ginto Nord;
+	src: url('fonts/ABC Ginto Nord/ABCGintoNord-Bold-Trial.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: ABC Ginto Normal;
+	src: url('fonts/ABC Ginto Normal/ABCGintoNormal-Bold-Trial.woff2') format('woff2');
+}
+
+body {
+	overflow: hidden;
+	margin: 0px;
+	color: rgb(153,102,231);
+	background-color: rgb(32,34,37);
+	font-family: 'Raleway', sans-serif;
+}
+
+.topblock1 {
+	height: 22px;
+	width: 100%;
+ 	position: absolute;
+ 	top: 0px; left: 0px;
+ 	background-color: rgb(32,34,37);
+}
+
+.topblock2 {
+	height: 48px;
+	width: 240px;
+ 	position: absolute;
+ 	top: 22px; left: 72px;
+ 	background-color: rgb(47,49,54);
+ 	-moz-border-radius-topleft: 7px;
+ 	-webkit-border-top-left-radius: 7px;
+ 	border-top-left-radius: 7px;
+}
+
+.topblock3 {
+	height: 48px;
+	width: 100%;
+ 	position: absolute;
+ 	top: 22px; left: 312px;
+ 	background-color: rgb(54,57,63);
+}
+
+.leftblock1 {
+	height: 100%;
+	width: 72px;
+ 	position: absolute;
+ 	top: 22px; left: 0px;
+ 	background-color: rgb(32,34,37);
+}
+
+.leftblock2 {
+	height: 100%;
+	width: 240px;
+ 	position: absolute;
+ 	top: 70px; left: 72px;
+ 	background-color: rgb(47,49,54);
+}
+
+.background {
+	height: 100%;
+	width: 100%;
+ 	position: absolute;
+ 	top: 70px; left: 312px;
+ 	background-color: rgb(54,57,63);
+}
+
+#shadow {
+ 	position: absolute;
+ 	top: 70px; left: 72px;
+ 	height: 2px;
+ 	width: 100%;
+}
+
+#icon {
+ 	position: absolute;
+ 	top: 4px; left: 12px;
+ 	height: 48px;
+ 	width: 48px;
+ 	border-radius: 50%;
+ 	-webkit-transition: border-radius 0.25s;
+ 	-moz-transition: border-radius 0.25s;
+    transition: border-radius 0.25s;
+}
+
+#icon:hover {
+ 	position: absolute;
+ 	top: 4px; left: 12px;
+ 	height: 48px;
+ 	width: 48px;
+ 	border-radius: 30%;
+ 	-webkit-transition: border-radius 0.25s;
+ 	-moz-transition: border-radius 0.25s;
+    transition: border-radius 0.25s;
+}
+
+#tiptoptitle {
+	margin: 0px;
+ 	position: absolute;
+ 	top: 3px; left: 13px;
+ 	font-family: ABC Ginto Nord;
+ 	font-size: 11px;
+ 	color: rgb(163,166,170);
+}
+
+#topblock2title {
+	margin: 0px;
+ 	position: absolute;
+ 	top: 14px; left: 17px;
+	font-family: ABC Ginto Normal;
+	font-size: 15px;
+	color: rgb(153,102,231);
+}
+
+ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 10px 0px 10px 0px;
+	width: 240px;
+	background-color: rgb(47,49,54);
+	height: 100%;
+	position: fixed;
+	overflow: hidden;
+}
+
+li a {
+	margin: 5px;
+	display: block;
+	color: rgb(153,102,231);
+	padding: 10px 0px 10px 15px;
+	text-decoration: none;
+}
+
+li a:hover {
+	margin: 5px;
+	border-radius: 10px 10px 10px 10px;
+	background-color: rgb(153,102,231);
+	color: rgb(47,49,54);
+}
