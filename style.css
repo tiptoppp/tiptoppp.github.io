@@ -1,0 +1,131 @@
+@font-face {
+	font-family: ABC Ginto Nord;
+	src: url('fonts/ABC Ginto Nord/ABCGintoNord-Bold-Trial.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: ABC Ginto Normal;
+	src: url('fonts/ABC Ginto Normal/ABCGintoNormal-Bold-Trial.woff2') format('woff2');
+}
+
+body {
+	overflow: hidden;
+	margin: 0px;
+	color: #ffffff;
+	background-color: rgb(32,34,37);
+	font-family: 'Raleway', sans-serif;
+}
+
+.shadow1 {
+ 	position: absolute;
+ 	top: 70px; left: 72px;
+ 	height: 1px;
+ 	width: 100%;
+ 	background-color: rgb(35,36,40);
+}
+
+.shadow2 {
+ 	position: absolute;
+ 	top: 71px; left: 72px;
+ 	height: 1px;
+ 	width: 100%;
+ 	background-color: rgb(44,45,50);
+}
+
+.topblock1 {
+	height: 22px;
+	width: 100%;
+ 	position: absolute;
+ 	top: 0px; left: 0px;
+ 	background-color: rgb(32,34,37);
+}
+
+.topblock2 {
+	height: 48px;
+	width: 240px;
+ 	position: absolute;
+ 	top: 22px; left: 72px;
+ 	background-color: rgb(47,49,54);
+ 	-moz-border-radius-topleft: 7px;
+ 	-webkit-border-top-left-radius: 7px;
+ 	border-top-left-radius: 7px;
+    -moz-transition: background-color .1s ease-in;
+    -o-transition: background-color .1s ease-in;
+    -webkit-transition: background-color .1s ease-in;
+    transition: background-color .1s ease-in;
+}
+
+.topblock2:hover {
+ 	background-color: rgb(60,63,69);
+}
+
+.topblock3 {
+	height: 48px;
+	width: 100%;
+ 	position: absolute;
+ 	top: 22px; left: 312px;
+ 	background-color: rgb(54,57,63);
+}
+
+.leftblock1 {
+	height: 100%;
+	width: 72px;
+ 	position: absolute;
+ 	top: 22px; left: 0px;
+ 	background-color: rgb(32,34,37);
+}
+
+.icon {
+	z-index: 1;
+	height: 48px;
+	width: 48px;
+	position: absolute;
+	top: 4px; left: 12px;
+	background-image: url(img/icon.png);
+	border-radius: 50%;
+	-webkit-transition: border-radius 0.25s;
+	-moz-transition: border-radius 0.25s;
+	transition: border-radius 0.25s;
+}
+
+.icon:hover {
+	border-radius: 30%;
+	-webkit-transition: border-radius 0.25s;
+	-moz-transition: border-radius 0.25s;
+	transition: border-radius 0.25s;
+}
+
+.leftblock2 {
+	height: 100%;
+	width: 240px;
+ 	position: absolute;
+ 	top: 72px; left: 72px;
+ 	background-color: rgb(47,49,54);
+}
+
+.background {
+	height: 100%;
+	width: 100%;
+ 	position: absolute;
+ 	top: 72px; left: 312px;
+ 	background-color: rgb(54,57,63);
+}
+
+#tiptoptitle {
+	margin: 0px;
+ 	position: absolute;
+ 	top: 3px; left: 13px;
+ 	font-family: ABC Ginto Nord;
+ 	font-size: 11px;
+ 	color: rgb(163,166,170);
+}
+
+#topblock2title {
+	margin: 0px;
+ 	position: absolute;
+ 	top: 14px; left: 17px;
+	font-family: ABC Ginto Normal;
+	font-size: 15px;
+	line-height: 20px;
+	color: #ffffff;
+}
